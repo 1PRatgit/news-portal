@@ -3,6 +3,9 @@
 - A real time web based application which displays news, it's categories, source of news, Date and time etc.
 - In backend News api is used for fetching news using Fastapi.
 - On clicking "Read-more" it is directed to the source page of news.
+- Routers for various categories included.
+- Search bar allows user to fetch required news content.
+- Subscription email implemented using emailJs
 
 ## 💻Tech Stack
 <br>
@@ -12,10 +15,11 @@
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![ReactJs](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 
 <br>
 
-## Screenshots
+<!-- ## Screenshots -->
 
-![20221010_144726](https://user-images.githubusercontent.com/89679695/194834531-148e0f7e-e38a-4c12-b2d3-cb6c0da9c463.png)
+<!-- ![20221010_144726](https://user-images.githubusercontent.com/89679695/194834531-148e0f7e-e38a-4c12-b2d3-cb6c0da9c463.png) -->
 
