@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import AddBookMark from "./Bookmarks/AddBookMark";
 class News extends React.Component {
   constructor(props) {
     super(props);
@@ -22,7 +22,8 @@ class News extends React.Component {
   fetchNews = async (query) => {
     try {
       const response = await fetch(
-       `http://localhost:8000/`  );
+        `https://newsapi.org/v2/everything?q=${query}&apiKey=39c3025e706146f99c1db7b6e2295f6e&pageSize=6`
+      );
       const data = await response.json();
       const articles = data.articles;
       this.setState({ articles });
@@ -47,7 +48,10 @@ class News extends React.Component {
                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#News</span>
                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Trending</span>
                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Latest</span>
+               <AddBookMark articleTitle={article.title} articleUrl={article.url}/>
              </div>
+            
+
           </div>
         ))}
       </div>
