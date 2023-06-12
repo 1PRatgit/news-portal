@@ -6,6 +6,7 @@
 - Routers for various categories included.
 - Search bar allows user to fetch required news content.
 - Subscription email implemented using emailJs
+- Bookmarking feature is included using localstorage.
 
 ## 💻Tech Stack
 <br>
@@ -19,7 +20,12 @@
 
 <br>
 
-<!-- ## Screenshots -->
+## Screenshots
+![Screenshot (124)](https://github.com/1PRatgit/news-portal/assets/89679695/8be75288-834c-413b-aef2-2d48733e839c)
+![Screenshot (121)](https://github.com/1PRatgit/news-portal/assets/89679695/863800f9-de61-444f-85cb-b0daa4f02263)
+![Screenshot (120)](https://github.com/1PRatgit/news-portal/assets/89679695/39020420-8d60-440e-82d0-64385da98fb7)
+![Screenshot (119)](https://github.com/1PRatgit/news-portal/assets/89679695/86834ac3-2f6b-4a69-98f5-49f1053d74f1)
+
 
 <!-- ![20221010_144726](https://user-images.githubusercontent.com/89679695/194834531-148e0f7e-e38a-4c12-b2d3-cb6c0da9c463.png) -->
 
